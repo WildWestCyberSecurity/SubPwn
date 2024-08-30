@@ -1,6 +1,6 @@
 # 🎯 SubPwn: Advanced Subdomain Enumeration and VHost Brute-Forcing Tool 🕵️‍♂️
 
-![SubPwn Logo]([[https://github.com/WildWestCyberSecurity/SubPwn/SubPwn_logo.png](https://raw.githubusercontent.com/WildWestCyberSecurity/SubPwn/main/SubPwn_Logo.png)]([https://github.com/WildWestCyberSecurity/SubPwn/blob/main/SubPwn_Logo.png](https://raw.githubusercontent.com/WildWestCyberSecurity/SubPwn/main/SubPwn_Logo.png)))  
+![SubPwn Logo](https://raw.githubusercontent.com/WildWestCyberSecurity/SubPwn/main/SubPwn_Logo.png)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python Version](https://img.shields.io/badge/python-3.x-brightgreen.svg)](https://www.python.org/)
@@ -22,7 +22,7 @@
 
 ## 📸 Screenshot of `-h` Output
 
-![Help Output](https://github.com/WildWestCyberSecurity/SubPwn/WildWestCyberSecurity/help_output.png) <!-- Replace with the actual path to your screenshot after uploading -->
+![Help Output](https://raw.githubusercontent.com/WildWestCyberSecurity/SubPwn/main/SubPwn_Screenshot2.png) <!-- Replace with the actual path to your screenshot after uploading -->
 
 ## ⚡ Installation
 
@@ -73,7 +73,7 @@ Run SubPwn with the desired options:
 SubPwn supports a variety of command-line arguments. To view all options, run:
 
 `
-python subpwn.py -h
+./subpwn.py -h
 `
 
 ## 🤝 Contributing
