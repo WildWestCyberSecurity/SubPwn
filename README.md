@@ -93,5 +93,5 @@ For questions or suggestions, feel free to open an issue or reach out to [James 
 
 ### 💬 Connect with Us
 
-[![Twitter](https://img.shields.io/twitter/follow/yourusername?style=social)](https://twitter.com/WildWestCyber)  
-[![GitHub followers](https://img.shields.io/github/followers/yourusername?style=social)](https://github.com/WildWestCyberSecurity)
+[![Twitter](https://img.shields.io/twitter/follow/WildWestCyber?style=social)](https://twitter.com/WildWestCyber)  
+[![GitHub followers](https://img.shields.io/github/followers/WildWestCyberSecurity?style=social)](https://github.com/WildWestCyberSecurity)
