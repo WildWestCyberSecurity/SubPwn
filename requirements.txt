@@ -1,0 +1,5 @@
+argparse
+colorama
+dnspython
+requests
+urllib3
