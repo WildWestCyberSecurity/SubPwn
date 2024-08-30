@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python Version](https://img.shields.io/badge/python-3.x-brightgreen.svg)](https://www.python.org/)
 ![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
-![Stars](https://img.shields.io/github/stars/yourusername/SubPwn?style=social)
+![Stars](https://img.shields.io/github/stars/WildWestCyberSecurity/SubPwn?style=social)
 
 🚀 **SubPwn** is an all-in-one subdomain enumeration, VHost brute-forcing, and active subdomain verification tool for penetration testers and cybersecurity professionals. Use it to uncover hidden subdomains and virtual hosts, enhancing your security assessments with a comprehensive, multi-phase approach.
 
