@@ -19,6 +19,9 @@
 - 🌍 **DNS Zone Transfer Attacks**: Attempt DNS zone transfers to uncover subdomains exposed by misconfigurations.
 - ✅ **Subdomain Verification**: Check HTTP/HTTPS status codes to find active endpoints.
 - 📊 **Detailed Logging and Reporting**: Generate comprehensive logs and output files for easy analysis.
+- 🔄 **Resume Functionality**: Ability to resume interrupted scans for both DNS enumeration and VHost brute-forcing.
+- 🚀 **Fast Mode**: Option to run all tools with maximum speed for quicker results.
+- 🎨 **Colorized Output**: Improved readability with color-coded console output.
 
 ## 📸 Screenshot of `-h` Output
 
@@ -54,19 +57,24 @@ Run SubPwn with the desired options:
 ### 💡 Example Commands
 
 - **Single Domain Enumeration:**
-  `
+  ```
   ./subpwn.py -d example.com -w wordlist.txt -o output_dir
-  `
+  ```
 
 - **Multiple Domains from a List:**
-  `
+  ```
   ./subpwn.py -dL domains.txt -w wordlist.txt -o output_dir
-  `
+  ```
 
 - **Fast Mode with Selected Phases:**
-  `
-  ./subpwn.py -d example.com -o output_dir --fast --skip-p2 --skip-p3
-  `
+  ```
+  ./subpwn.py -d example.com -o output_dir -FF --skip-p2 --skip-p3
+  ```
+
+- **Custom Save Interval for DNS Enumeration:**
+  ```
+  ./subpwn.py -d example.com -w wordlist.txt -o output_dir --save-interval 100
+  ```
 
 ## ⚙️ Options
 
@@ -75,6 +83,12 @@ SubPwn supports a variety of command-line arguments. To view all options, run:
 `
 ./subpwn.py -h
 `
+
+Key options include:
+- `-FF, --fast`: Run all tools with maximum speed
+- `--save-interval`: Set the interval for saving progress in DNS enumeration
+- `--skip-p1` to `--skip-p5`: Skip specific phases of the enumeration process
+- `--max-workers`: Set the maximum number of worker threads for subdomain verification and vhost scanning
 
 ## 🤝 Contributing
 
